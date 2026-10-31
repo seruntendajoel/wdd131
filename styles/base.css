@@ -1,0 +1,54 @@
+
+#course-title{
+    background-color: rgb(89, 89, 234);
+    color: white;
+    padding: 10px;
+    
+}
+span{
+    display: block;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(84, 84, 84);
+    color: white;
+    text-align: center;
+   display: flex;
+    padding: 1rem;
+    
+}
+nav a:hover{
+    border: 1px, solid #fff;
+}
+nav ul li{
+    flex: 1 1 100%;
+}
+h2{
+    background-color: rgb(95, 95, 191);
+    color: white;
+    padding: 10px;
+}
+.box{
+    display: ruby;
+    margin: 3px;
+}
+.box2{
+    display: table;
+    float: right;
+    margin-right: 100cap;
+}
+.card img{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+h3{
+    background-color: rgb(95 95 191 );
+    color: white;
+    padding: 10px;
+}
