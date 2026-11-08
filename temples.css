@@ -1,0 +1,89 @@
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: navy;
+        text-align: center;
+    }
+
+body{
+    font-family: Roboto, serif;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: blueviolet;
+    padding: 8px;
+    color: #fff;
+}
+nav a{
+    text-decoration: none;
+    background-color: rgb(84, 84, 84);
+    color: white;
+    text-align: center;
+   display: flex;
+    padding: 1rem;
+    
+}
+nav a:hover{
+    border: 1px, solid #fff;
+}
+nav ul li{
+    flex: 1 1 100%;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	place-items: center;
+}
+
+figure {
+	background-color: #fff;
+}
+img {
+	width: 100%;
+	height: auto;
+	margin: 0.5rem;
+}
+figcaption {
+	font-size: larger;
+}
+footer{
+    display: grid;
+    text-align: center;
+    background-color: blueviolet;
+    color: #fff;
+    padding: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+/* Hide hamburger in desktop view */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}

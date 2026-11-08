@@ -1,3 +1,14 @@
+@media  screen and (min-width: 640px) {
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        color: navy;
+    }
+}
+
+body{
+    font-family: Roboto, serif;
+}
 
 #course-title{
     background-color: rgb(89, 89, 234);
