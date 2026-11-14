@@ -1,3 +1,7 @@
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 @media screen and (min-width: 640px) {
     h1{
         font-family: 'Times New Roman', Times, serif;
@@ -57,7 +61,7 @@ h3{
     padding: 20px;
     text-align: center;
 }
-h3:hover ::first-letter{
+h3:hover ::after{
 color: brown;
 }
 
