@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples</title>
+    <meta name="author" content="Joel Seruntenda">
+    <meta name="description" content="Adding a navigation bar to a 
+    responsive menu using Javascript, HTML, and CSS.">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="temples.html" class="logo">Temple Album</a>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" 
+            aria-expanded="false">
+            ☰
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+            <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li> <a href="#">Large</a></li>
+                <li> <a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+       <div id="temple-container" class="temple-container">
+       </div>
+    </main>
+    
+ <footer>
+        <p>
+                &copy; 2026 <br>
+                Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+    
+</body>
+</html>
